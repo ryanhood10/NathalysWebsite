@@ -1,5 +1,5 @@
 import React from 'react'
-import robot1 from '../images/ryanh5800_robots_making_a_deal_candid_realistic_4k_f56bef09-6030-481e-9db3-9a91ff4d2c7f.png';
+import robot1 from '../images/marketingHeader.jpeg';
 // import robot2 from '../images/ryanh5800_robot_current_day_bd7addf9-7568-48cf-b261-27977247aeb6.png';
 // import robot3 from '../images/ryanh5800_robot_current_day_9e083e76-b13d-4a6c-b01e-a6199c16fb10.png';
 // import people1 from '../images/ryanh5800_people_working_on_technology_candid_4k_realistic_7e37e369-f643-40a4-9eba-e1da1bbcab34.png';
@@ -15,13 +15,13 @@ import robot1 from '../images/ryanh5800_robots_making_a_deal_candid_realistic_4k
 const Hero = () => {
     return (
         <div className="max-w-[1640px] mx-auto p-4">
-            <div className='max-h-[500px] relative'>
+            <div className='max-h-[150px] relative'>
                 {/* overlay */}
-                <div className='absolute w-full h-full text-gray-200 max-h-[500px] bg-black/40 flex flex-col justify-center'>
-                    <h1 className='px-4 text-4xl sm:text-5xl md:text-6xl lg:7xl font-bold' >Testing <span className='text-orange-500'> Your</span></h1>
-                    <h1 className='px-4 text-4xl sm:text-5xl md:text-6xl lg:7xl font-bold' >Virtual <span className='text-orange-500'> Assistant</span></h1>
+                <div className='border rounded-xl absolute w-full h-full text-gray-200 max-h-[200px] bg-black/40 flex flex-col justify-center'>
+                <h1 className='px-4 text-2xl sm:text-2.5xl md:text-3xl lg:text-3.5xl font-bold'>Nathaly Aviles</h1>
+                <h1 className='px-4 text-2xl sm:text-2.5xl md:text-3xl lg:text-3.5xl font-bold'><span className='text-purple-200'>Marketing & Social Media Manager</span></h1>
                 </div>
-                    <img className='w-full max-h-[500px] object-cover' src={robot1}  alt="robot1" />
+                    <img className='w-full max-h-[150px] object-cover' src={robot1}  alt="robot1" />
             </div>
         </div>
     )
