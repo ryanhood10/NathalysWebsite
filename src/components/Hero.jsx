@@ -14,7 +14,7 @@ import robot1 from '../images/marketingHeader.jpeg';
 
 const Hero = () => {
     return (
-        <div className="max-w-[1640px] mx-auto p-4">
+        <div className="max-w-[1640px] mx-auto p-4 bg-gray-100 ">
             <div className='max-h-[150px] relative'>
                 {/* overlay */}
                 <div className='border rounded-xl absolute w-full h-full text-gray-200 max-h-[200px] bg-black/40 flex flex-col justify-center'>

@@ -2,6 +2,7 @@ import TestimonialsPage from './components/Testimonials';
 import Hero from './components/Hero'
 import HeadlineCards from './components/HeadlineCards';
 import Portfolio from './components/Portfolio';
+import Footer from './components/ContactFooter';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
                   <TestimonialsPage />
                   <HeadlineCards />
                   <Portfolio />
+                  <Footer />
     </div>
   );
 }
